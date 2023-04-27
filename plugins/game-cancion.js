@@ -16,7 +16,7 @@ let json = res[Math.floor(Math.random() * res.length)]
 //let result = await res.json()
 //let json = result.result
 let caption = `
-ADIVINA EL TITULO DE LA CANCION
+ADIVINA EL TITULO DE LA CANCION 
 Tiempo ${(timeout / 1000).toFixed(2)} segundos
 Escribe *${usedPrefix}pista* Para obtener una pista
 Premio: ${poin} XP

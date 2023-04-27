@@ -1,44 +1,42 @@
 import fetch from 'node-fetch'
 const regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
 let handler = async (m, { args, usedPrefix, command }) => {
-if (!args[0]) throw `*PAQUETES AÑADIR A GRUPOS
+if (!args[0]) throw 
 
-(MENSUAL)
-Añadir a grupo:
-🇵🇪(Yape, Plin): 7 soles
-🇦🇷(UALA): $700 pesos
-🇨🇱(RUT): $2000
-🌎(Paypal): 2 Dolares/USD
-💎(Diamantes): 200
+`𝐀𝐍̃𝐀𝐃𝐈𝐑 𝐀 𝐆𝐑𝐔𝐏𝐎𝐒 𝐀 𝐁𝐎𝐓 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 
 
-(PERMANENTE)
-Añadir a grupos (3 grupos)
-🇵🇪(Yape, Plin): S/16 soles
-🇦🇷(UALA): $1600 pesos
-🇨🇱(RUT): $3600 pesos 
-🌎(Paypal): 6 dólares/USD
-💎(Diamantes): 600
+(𝐌𝐄𝐍𝐒𝐔𝐀𝐋)
+𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: 1
+𝚈𝙰𝙿𝙴, 𝙿𝙻𝙸𝙽: S/4 soles
+𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂: 200
+
+(𝐌𝐄𝐍𝐒𝐔𝐀𝐋)
+𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: 3
+𝚈𝙰𝙿𝙴, 𝙿𝙻𝙸𝙽: S/10 soles
+𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂: 600
 
 
-PAQUETES BOTS PERSONALES Y PARA REVENTA
+𝐀𝐍̃𝐀𝐃𝐈𝐑 𝐀 𝐆𝐑𝐔𝐏𝐎𝐒 𝐀 𝐁𝐎𝐓 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋𝐈𝐙𝐀𝐃𝐎 
 
-Bot personal
-(PERMANENTE)
-Sin límites (prohibida su venta, con derechos de autor)
-🇵🇪(Yape, Plin): S/20 soles
-🇦🇷(UALA): $2000 pesos
-🇨🇱(RUT): $5000 pesos 
-🌎(Paypal): 6 dólares/USD
-💎(Diamantes): 600
+(𝐌𝐄𝐍𝐒𝐔𝐀𝐋)
+𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: 1
+𝚈𝙰𝙿𝙴, 𝙿𝙻𝙸𝙽: S/7 soles
+𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂: 600
 
-BOT PARA REVENTA
-(PERMANENTE)
-Sin limite (100% del control del bot)
-🇵🇪(Yape, Plin): S/35 soles
-🇦🇷(UALA): $3500 pesos
-🇨🇱(RUT): $8000 pesos 
-🌎(Paypal): 10 dólares/USD
-💎(Diamantes): 1000`
+(𝐌𝐄𝐍𝐒𝐔𝐀𝐋)
+𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙶𝚁𝚄𝙿𝙾𝚂: 3
+𝚈𝙰𝙿𝙴, 𝙿𝙻𝙸𝙽: S/15 soles
+𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂: 600`
+
+
+
+
+
+
+
+
+
+
 if (!regex.test(args[0])) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙸𝙽𝙺 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾!*'
 let [_, user, repo] = args[0].match(regex) || []
 repo = repo.replace(/.git$/, '')

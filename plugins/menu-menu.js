@@ -26,14 +26,14 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *@ventas.bots.gerixryu* —◉
+║    ◉— 𝐓𝐇𝐄 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 𝐁𝐎𝐓 —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *𝗛ola, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *Owner:* Geri
-║➤ *Numero:* wa.me/56954390663
-║➤ *Bot ofc:* wa.me/56956843163
-║➤ *Yape:* 933 348 947
+║➤ *Owner:* Adriano Sánchez
+║➤ *Numero:* wa.me/51986206184
+║➤ *Bot ofc:* wa.me/51986206184
+║➤ *Yape:* 986 206 184
 ║➤ *Fecha:* ${date}
 ║➤ *Tiempo activo:* ${uptime}
 ║➤ *Usuarios:* ${rtotalreg}
@@ -639,7 +639,7 @@ mediaUrl: null,
 title: '@ffxryu.18',
 body: null,
 thumbnail: img,
-sourceUrl: `https://wa.me/+56954390663`
+sourceUrl: `https://wa.me/+51986206184`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
