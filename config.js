@@ -8,27 +8,27 @@ import axios from 'axios'
 import moment from 'moment-timezone' 
 
 global.owner = [
-  ['56954390663', 'GeriPium', true],
-  ['51955095498', '@ffxryu.18', true],
-  ['51933348947', '@ffxryu.18', true],
-  ['51955095498', '@ffxryu.18', true],
-  ['51955095498', '@ffxryu.18', true],
-  ['51955095498', '@ffxryu.18', true],
-  ['51955095498', '@ffxryu.18', true],  
-  ['51955095498', '@ffxryu.18', true],	
-  ['51955095498'],
-  ['51955095498'],
-  ['51955095498'],	
-  ['51955095498']
+  ['51936933624', '𝚃𝙷𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝙱𝙾𝚃', true],
+  ['51986206184', '@adri2.pc', true],
+  ['51986206184', '@adri2.pc', true],
+  ['51986206184', '@adri2.pc', true],
+  ['51986206184', '@adri2.pc', true],
+  ['51986206184', '@adri2.pc', true],
+  ['51986206184', '@adri2.pc', true],  
+  ['51986206184', '@adri2.pc', true],	
+  ['51986206184'],
+  ['51986206184'],
+  ['51986206184'],	
+  ['51986206184']
 ] 
 
-global.suittag = ['51955095498'] 
-global.prems = ['51955095498'] 
+global.suittag = ['51986206184'] 
+global.prems = ['51986206184'] 
 
-global.packname = 'GeriPium'
-global.author = 'GeriPium'
-global.wm = 'GeriPium'
-global.igfg = 'GeriPium'
+global.packname = '𝚃𝙷𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝙱𝙾𝚃'
+global.author = '𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙'
+global.wm = '𝚃𝙷𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝙱𝙾𝚃'
+global.igfg = '𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙'
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -430,15 +430,15 @@ global.mes = d.toLocaleDateString('es', { month: 'long' })
 global.año = d.toLocaleDateString('es', { year: 'numeric' })
 global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
 //*****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ GeriPium`
-global.gt = 'GeriPium'
-global.mysticbot = 'GeriPium'
-global.md = 'https://wa.me/+56954390663'
-global.mysticbot = 'https://wa.me/+56954390663'
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝙷𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝙱𝙾𝚃`
+global.gt = '𝚃𝙷𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝙱𝙾𝚃'
+global.mysticbot = '𝚃𝙷𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝙱𝙾𝚃'
+global.md = 'https://wa.me/+51986206184'
+global.mysticbot = 'https://wa.me/+51986206184'
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
-global.nomorown = '5219993404349'
+global.nomorown = '51986206184'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 global.cmenut = '❖––––––『'
 global.cmenub = '┊✦ '
