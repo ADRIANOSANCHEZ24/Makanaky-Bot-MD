@@ -65,7 +65,7 @@ global.db.chain = chain(global.db.data)
 }
 loadDatabase()
 
-global.authFile = `GeriPium`
+global.authFile = `The Makanaky - Bot`
 const { state, saveState, saveCreds } = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = MessageRetryMap => { }
 
@@ -79,7 +79,7 @@ getMessage: async (key) => ( opts.store.loadMessage(/** @type {string} */(key.re
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['GeriPium','Safari','9.7.0']
+browser: ['The Makanaky - Bot','Safari','9.7.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
@@ -124,9 +124,9 @@ readdirSync("./jadibts/" + file).forEach(file2 => {
 if (file2 !== "creds.json") { unlinkSync("./jadibts/" + file + "/" + file2) }})
 } catch {}}})*/
        
-readdirSync("./GeriPium").forEach(file => {
+readdirSync("./The Makanaky - Bot").forEach(file => {
 if (file !== 'creds.json') {
-unlinkSync("./GeriPium/" + file, { recursive: true, force: true })}})    
+unlinkSync("./The Makanaky - Bot/" + file, { recursive: true, force: true })}})    
 return filename.map(file => {
 const stats = statSync(file)
 if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 3)) return unlinkSync(file) // 3 minutes
@@ -280,7 +280,7 @@ if (stopped == 'close') return
 const status = global.db.data.settings[conn.user.jid] || {}
 let _uptime = process.uptime() * 1000    
 let uptime = clockString(_uptime)
-let bio = `🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ: ${uptime} ┃ 👑 ʙʏ GeriPium ┃ 🔗 ᴄᴜᴇɴᴛᴀs ᴏғᴄ: https://www.instagram.com/geripium`
+let bio = `🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ: ${uptime} ┃ 👑 ʙʏ ᴀᴅʀɪᴀɴᴏ sᴀɴᴄʜᴇᴢ ┃ 🔗 ᴄᴜᴇɴᴛᴀs ᴏғᴄ: https://www.instagram.com/adri2pc`
 await conn.updateProfileStatus(bio).catch(_ => _)
 }, 60000)
 function clockString(ms) {
