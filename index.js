@@ -17,7 +17,7 @@ say('The Makanaky - Bot', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Bot creado por Adriano Sánchez`, {
+say(`Bot creado por Richetti`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
