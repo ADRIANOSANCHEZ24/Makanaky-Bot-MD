@@ -26,9 +26,9 @@ global.suittag = ['51986206184']
 global.prems = ['51986206184'] 
 
 global.packname = '𝚃𝙷𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝙱𝙾𝚃'
-global.author = '𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙'
+global.author = '𝙰𝙳𝚁𝙸𝙰𝙽𝙾 𝚂𝙰𝙽𝙲𝙷𝙴𝚉'
 global.wm = '𝚃𝙷𝙴 𝙼𝙰𝙺𝙰𝙽𝙰𝙺𝚈 - 𝙱𝙾𝚃'
-global.igfg = '𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙'
+global.igfg = '𝙰𝙳𝚁𝙸𝙰𝙽𝙾 𝚂𝙰𝙽𝙲𝙷𝙴𝚉'
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
